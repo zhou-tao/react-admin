@@ -1,17 +1,11 @@
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { Button } from 'antd'
 
-function App() {
+export default function App() {
   return (
     <>
-      <div>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>React Admin</h1>
+      <h3>React Admin</h3>
+      <Button type="primary">ANTD BTN</Button>
+      <button>button</button>
     </>
   )
 }
-
-export default App
